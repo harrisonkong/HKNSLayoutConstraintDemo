@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HKDeviceUtilities/HKDeviceUtilities.framework
+${BUILT_PRODUCTS_DIR}/HKNSLayoutConstraint/HKNSLayoutConstraint.framework
+${BUILT_PRODUCTS_DIR}/HKUIViewLengthCalculationBasis/HKUIViewLengthCalculationBasis.framework

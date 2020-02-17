@@ -1,0 +1,24 @@
+PODS:
+  - HKDeviceUtilities (1.0.0)
+  - HKNSLayoutConstraint (1.0.0):
+    - HKDeviceUtilities (~> 1.0.0)
+    - HKUIViewLengthCalculationBasis (~> 1.0.0)
+  - HKUIViewLengthCalculationBasis (1.0.0)
+
+DEPENDENCIES:
+  - HKNSLayoutConstraint (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - HKDeviceUtilities
+    - HKNSLayoutConstraint
+    - HKUIViewLengthCalculationBasis
+
+SPEC CHECKSUMS:
+  HKDeviceUtilities: 21bd631eec1e39c34234e6468a6bec98253c2e62
+  HKNSLayoutConstraint: 18049170a8fb07676769160d9064ae4437c03f71
+  HKUIViewLengthCalculationBasis: b4b1b13e203ae0aa303b109b22416601ca1fc687
+
+PODFILE CHECKSUM: da01283bb3f717cbdac6a85e2f5bb4e95345c770
+
+COCOAPODS: 1.8.4

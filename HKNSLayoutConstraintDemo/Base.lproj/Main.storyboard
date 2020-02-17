@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HK_Const_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoI-6Z-fEx" userLabel="Pink View">
+                                <rect key="frame" x="20" y="243.5" width="374" height="409"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQP-Gz-MZL" userLabel="Orange View">
+                                        <rect key="frame" x="62" y="79.5" width="250" height="250"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="&lt;--- Orange's Width is set to 90% of the shorter edge of the pink view. ---&gt;" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14d-gi-fBr" userLabel="Top Text View">
+                                                <rect key="frame" x="12.5" y="10" width="225" height="225"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Orange's Aspect Ratio = 1:1" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzA-cY-1ZH" userLabel="Bottom Text View">
+                                                <rect key="frame" x="23.5" y="177.5" width="203" height="62.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="14d-gi-fBr" firstAttribute="height" secondItem="cQP-Gz-MZL" secondAttribute="height" multiplier="0.9" id="Cae-3N-Avt"/>
+                                            <constraint firstItem="nzA-cY-1ZH" firstAttribute="height" secondItem="cQP-Gz-MZL" secondAttribute="height" multiplier="0.25" id="DgI-Vf-K8k"/>
+                                            <constraint firstItem="nzA-cY-1ZH" firstAttribute="width" secondItem="14d-gi-fBr" secondAttribute="width" multiplier="0.9" id="Voq-20-NtB"/>
+                                            <constraint firstItem="14d-gi-fBr" firstAttribute="width" secondItem="cQP-Gz-MZL" secondAttribute="width" multiplier="0.9" id="X4N-3V-4HT"/>
+                                            <constraint firstItem="14d-gi-fBr" firstAttribute="centerX" secondItem="cQP-Gz-MZL" secondAttribute="centerX" id="aRz-pT-cvg"/>
+                                            <constraint firstItem="14d-gi-fBr" firstAttribute="top" secondItem="cQP-Gz-MZL" secondAttribute="top" constant="10" id="cE5-Za-JhT"/>
+                                            <constraint firstItem="nzA-cY-1ZH" firstAttribute="centerX" secondItem="cQP-Gz-MZL" secondAttribute="centerX" id="f65-ts-g1c"/>
+                                            <constraint firstAttribute="bottom" secondItem="nzA-cY-1ZH" secondAttribute="bottom" constant="10" id="lY0-ip-PTN"/>
+                                            <constraint firstAttribute="width" secondItem="cQP-Gz-MZL" secondAttribute="height" multiplier="1:1" id="vX1-NF-m7W"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cQP-Gz-MZL" firstAttribute="centerY" secondItem="KoI-6Z-fEx" secondAttribute="centerY" id="34V-24-CNW"/>
+                                    <constraint firstItem="cQP-Gz-MZL" firstAttribute="centerX" secondItem="KoI-6Z-fEx" secondAttribute="centerX" id="SOe-BN-1gc"/>
+                                    <constraint firstItem="cQP-Gz-MZL" firstAttribute="width" secondItem="KoI-6Z-fEx" secondAttribute="width" multiplier="0.001" constant="250" id="TWL-ed-LKq" customClass="HKNSLayoutConstraint" customModule="HKNSLayoutConstraint">
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="altMultiplier">
+                                                <real key="value" value="0.90000000000000002"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="alt2ndItem">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="altCalcBasis">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;--- Pink View's Leading &amp; Trailing ---&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU2-q9-mRR">
+                                <rect key="frame" x="34.5" y="170.5" width="345.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is set to 10% of screen width" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zce-Zq-03E">
+                                <rect key="frame" x="84" y="204.5" width="246" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pink's Height = 50% safe area height" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kn8-BH-Evw">
+                                <rect key="frame" x="66.5" y="662.5" width="281" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Programmatic Constraints:  Button's Height set to 40. Width set to 50% of the width of the pink view." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plr-wT-Bhb" userLabel="Popup Text View">
+                                <rect key="frame" x="181.5" y="453" width="71.5" height="200.5"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdP-vh-GHF" userLabel="Full Screen Button">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <connections>
+                                    <action selector="fullScreenButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nBZ-2U-hxo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssy-O6-zKp">
+                                <rect key="frame" x="181.5" y="693.5" width="51" height="22"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Info" image="info.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAT-Bb-Rte"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KoI-6Z-fEx" firstAttribute="top" secondItem="Zce-Zq-03E" secondAttribute="bottom" constant="15" id="1nZ-VK-6YM"/>
+                            <constraint firstItem="plr-wT-Bhb" firstAttribute="leading" secondItem="ssy-O6-zKp" secondAttribute="leading" id="23T-f5-F87"/>
+                            <constraint firstItem="KoI-6Z-fEx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6EL-IZ-bmZ"/>
+                            <constraint firstItem="Zce-Zq-03E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6P4-rw-JMk"/>
+                            <constraint firstItem="ssy-O6-zKp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BoI-T8-CRz"/>
+                            <constraint firstItem="DdP-vh-GHF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fcb-9e-7q3"/>
+                            <constraint firstItem="Zce-Zq-03E" firstAttribute="top" secondItem="sU2-q9-mRR" secondAttribute="bottom" constant="10" id="GaR-JL-Qqz"/>
+                            <constraint firstItem="ssy-O6-zKp" firstAttribute="top" secondItem="kn8-BH-Evw" secondAttribute="bottom" constant="10" id="Mas-1k-WDo"/>
+                            <constraint firstItem="DdP-vh-GHF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OwR-LS-Z5W"/>
+                            <constraint firstItem="ssy-O6-zKp" firstAttribute="top" secondItem="plr-wT-Bhb" secondAttribute="bottom" constant="40" id="QLM-Ep-eVB"/>
+                            <constraint firstItem="KoI-6Z-fEx" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="R4I-Fz-Ajh">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="alt2ndItem">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="altCalcBasis">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="plr-wT-Bhb" firstAttribute="width" secondItem="ssy-O6-zKp" secondAttribute="width" multiplier="1.4" id="VfR-3S-Exa"/>
+                            <constraint firstItem="kn8-BH-Evw" firstAttribute="top" secondItem="KoI-6Z-fEx" secondAttribute="bottom" constant="10" id="Ywu-qh-Dpw" userLabel="Pink's Height = safe area height.top = Pink View.bottom + 10"/>
+                            <constraint firstItem="KoI-6Z-fEx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="fCB-mk-ECq" customClass="HKNSLayoutConstraint" customModule="HKNSLayoutConstraint">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="altMultiplier">
+                                        <real key="value" value="-0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="alt2ndItem">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="altCalcBasis">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="plr-wT-Bhb" firstAttribute="height" secondItem="cQP-Gz-MZL" secondAttribute="height" multiplier="0.8" id="kAy-Hk-SL3"/>
+                            <constraint firstItem="KoI-6Z-fEx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kW8-Fx-kpd" customClass="HKNSLayoutConstraint" customModule="HKNSLayoutConstraint">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="altMultiplier">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="altCalcBasis">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="alt2ndItem">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="DdP-vh-GHF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="l5S-dk-Hfu"/>
+                            <constraint firstItem="kn8-BH-Evw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qkJ-ac-Fqk" userLabel="Pink's Height = safe area height.centerX = centerX"/>
+                            <constraint firstItem="sU2-q9-mRR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="toE-JO-GQp"/>
+                            <constraint firstItem="DdP-vh-GHF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z22-mB-Vje"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoButton" destination="ssy-O6-zKp" id="1T1-ez-2gs"/>
+                        <outlet property="orangeView" destination="cQP-Gz-MZL" id="qpS-5C-OQZ"/>
+                        <outlet property="orangeViewWidthConstraint" destination="TWL-ed-LKq" id="ngb-BP-xHc"/>
+                        <outlet property="pinkView" destination="KoI-6Z-fEx" id="m9h-Xg-Glq"/>
+                        <outlet property="pinkViewLeadingConstraint" destination="kW8-Fx-kpd" id="u8Q-tm-PWA"/>
+                        <outlet property="pinkViewTrailingConstraint" destination="fCB-mk-ECq" id="erH-pm-v76"/>
+                        <outlet property="popupTextView" destination="plr-wT-Bhb" id="S31-Kd-d6Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>

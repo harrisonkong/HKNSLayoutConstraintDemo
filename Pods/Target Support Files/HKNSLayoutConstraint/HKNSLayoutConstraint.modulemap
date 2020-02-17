@@ -1,0 +1,6 @@
+framework module HKNSLayoutConstraint {
+  umbrella header "HKNSLayoutConstraint-umbrella.h"
+
+  export *
+  module * { export * }
+}

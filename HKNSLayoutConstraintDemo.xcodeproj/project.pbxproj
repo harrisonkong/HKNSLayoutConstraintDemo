@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BADC725D18502332902AAA8 /* Pods_HKNSLayoutConstraintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E182362F914BCA17EED82112 /* Pods_HKNSLayoutConstraintDemo.framework */; };
+		C9BA94BF23E59025009DED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA94BE23E59025009DED2A /* AppDelegate.swift */; };
+		C9BA94C123E59025009DED2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA94C023E59025009DED2A /* SceneDelegate.swift */; };
+		C9BA94C323E59025009DED2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA94C223E59025009DED2A /* ViewController.swift */; };
+		C9BA94C623E59025009DED2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BA94C423E59025009DED2A /* Main.storyboard */; };
+		C9BA94C823E59034009DED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA94C723E59034009DED2A /* Assets.xcassets */; };
+		C9BA94CB23E59034009DED2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BA94C923E59034009DED2A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6508676D39908EB30B69D7B1 /* Pods-HKNSLayoutConstraintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKNSLayoutConstraintDemo.debug.xcconfig"; path = "Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BA94BB23E59025009DED2A /* HK NSL Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HK NSL Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA94BE23E59025009DED2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BA94C023E59025009DED2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9BA94C223E59025009DED2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9BA94C523E59025009DED2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BA94C723E59034009DED2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BA94CA23E59034009DED2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BA94CC23E59034009DED2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC18297948906C70F734FDEC /* Pods-HKNSLayoutConstraintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKNSLayoutConstraintDemo.release.xcconfig"; path = "Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E182362F914BCA17EED82112 /* Pods_HKNSLayoutConstraintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKNSLayoutConstraintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BA94B823E59025009DED2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BADC725D18502332902AAA8 /* Pods_HKNSLayoutConstraintDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51982843CC101EE1ACD5AF88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6508676D39908EB30B69D7B1 /* Pods-HKNSLayoutConstraintDemo.debug.xcconfig */,
+				DC18297948906C70F734FDEC /* Pods-HKNSLayoutConstraintDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9BA94B223E59024009DED2A = {
+			isa = PBXGroup;
+			children = (
+				C9BA94BD23E59025009DED2A /* HKNSLayoutConstraintDemo */,
+				C9BA94BC23E59025009DED2A /* Products */,
+				51982843CC101EE1ACD5AF88 /* Pods */,
+				DE845FE9011BEC338133F8EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BA94BC23E59025009DED2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA94BB23E59025009DED2A /* HK NSL Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BA94BD23E59025009DED2A /* HKNSLayoutConstraintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA94BE23E59025009DED2A /* AppDelegate.swift */,
+				C9BA94C023E59025009DED2A /* SceneDelegate.swift */,
+				C9BA94C223E59025009DED2A /* ViewController.swift */,
+				C9BA94C423E59025009DED2A /* Main.storyboard */,
+				C9BA94C723E59034009DED2A /* Assets.xcassets */,
+				C9BA94C923E59034009DED2A /* LaunchScreen.storyboard */,
+				C9BA94CC23E59034009DED2A /* Info.plist */,
+			);
+			path = HKNSLayoutConstraintDemo;
+			sourceTree = "<group>";
+		};
+		DE845FE9011BEC338133F8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E182362F914BCA17EED82112 /* Pods_HKNSLayoutConstraintDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BA94BA23E59025009DED2A /* HKNSLayoutConstraintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BA94CF23E59034009DED2A /* Build configuration list for PBXNativeTarget "HKNSLayoutConstraintDemo" */;
+			buildPhases = (
+				51843CE9C4E6E647951D0965 /* [CP] Check Pods Manifest.lock */,
+				C9BA94B723E59025009DED2A /* Sources */,
+				C9BA94B823E59025009DED2A /* Frameworks */,
+				C9BA94B923E59025009DED2A /* Resources */,
+				F510048AB911B517065FD4C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKNSLayoutConstraintDemo;
+			productName = HKUILayoutConstraintDemo;
+			productReference = C9BA94BB23E59025009DED2A /* HK NSL Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BA94B323E59024009DED2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = skyRoute66;
+				TargetAttributes = {
+					C9BA94BA23E59025009DED2A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = C9BA94B623E59024009DED2A /* Build configuration list for PBXProject "HKNSLayoutConstraintDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BA94B223E59024009DED2A;
+			productRefGroup = C9BA94BC23E59025009DED2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BA94BA23E59025009DED2A /* HKNSLayoutConstraintDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BA94B923E59025009DED2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA94CB23E59034009DED2A /* LaunchScreen.storyboard in Resources */,
+				C9BA94C823E59034009DED2A /* Assets.xcassets in Resources */,
+				C9BA94C623E59025009DED2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51843CE9C4E6E647951D0965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HKNSLayoutConstraintDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F510048AB911B517065FD4C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKNSLayoutConstraintDemo/Pods-HKNSLayoutConstraintDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BA94B723E59025009DED2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA94C323E59025009DED2A /* ViewController.swift in Sources */,
+				C9BA94BF23E59025009DED2A /* AppDelegate.swift in Sources */,
+				C9BA94C123E59025009DED2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9BA94C423E59025009DED2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BA94C523E59025009DED2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9BA94C923E59034009DED2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BA94CA23E59034009DED2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BA94CD23E59034009DED2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BA94CE23E59034009DED2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BA94D023E59034009DED2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6508676D39908EB30B69D7B1 /* Pods-HKNSLayoutConstraintDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GV7SU6S4T;
+				INFOPLIST_FILE = HKNSLayoutConstraintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroute66.HKNSLayoutConstraintDemo;
+				PRODUCT_NAME = "HK NSL Demo";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BA94D123E59034009DED2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC18297948906C70F734FDEC /* Pods-HKNSLayoutConstraintDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GV7SU6S4T;
+				INFOPLIST_FILE = HKNSLayoutConstraintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroute66.HKNSLayoutConstraintDemo;
+				PRODUCT_NAME = "HK NSL Demo";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BA94B623E59024009DED2A /* Build configuration list for PBXProject "HKNSLayoutConstraintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA94CD23E59034009DED2A /* Debug */,
+				C9BA94CE23E59034009DED2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BA94CF23E59034009DED2A /* Build configuration list for PBXNativeTarget "HKNSLayoutConstraintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA94D023E59034009DED2A /* Debug */,
+				C9BA94D123E59034009DED2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BA94B323E59024009DED2A /* Project object */;
+}
